@@ -45,7 +45,16 @@ table {
 
 #needed-score {
   text-align: center;
-  font-size: 100px;
+  font-size: 50px;
+}
+
+#color {
+  text-align: center;
+  font-size: 50px;
+}
+
+#remain {
+  font-size: 50px;
 }
 
 th,
