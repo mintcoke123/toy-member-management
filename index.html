@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>맴버 트래픽라이트 매니지먼트</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>맴버 트래픽라이트 매니지먼트</h1>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="검색..." /><button
+        id="search-btn"
+      >
+        검색
+      </button>
+    </div>
+    <div id="result" style="display: none">
+      <table>
+        <thead>
+          <tr>
+            <th>결석</th>
+            <th>정시도착</th>
+            <th>주당 리퍼럴</th>
+            <th>감사장 기여금액</th>
+            <th>주당 평균 비지터</th>
+            <th>주당 121</th>
+            <th>교육참가</th>
+            <th>합계</tr>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="absent">데이터1</td>
+            <td id="arriving">데이터2</td>
+            <td id="refer">데이터3</td>
+            <td id="thank">데이터4</td>
+            <td id="visiter">데이터5</td>
+            <td id="121">데이터6</td>
+            <td id="training">데이터7</td>
+            <th id="total">합계</tr>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <strong id="needed-score">숨겨진 글씨 1</strong>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("search-btn")
+        .addEventListener("click", function () {
+          document.getElementById("result").style.display = "block";
+          document.getElementById("needed-score").style.display = "block";
+        });
+    </script>
+  </body>
+</html>

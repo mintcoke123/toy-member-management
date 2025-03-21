@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, white, #5bc0eb);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  padding: 10px;
+  font-size: 1em;
+}
+
+#search-button {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.table-container {
+  display: none;
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+#needed-score {
+  text-align: center;
+  font-size: 100px;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.hidden-text {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
